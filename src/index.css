@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background:rgb(10, 1, 27);
+    color: white;
+}
+
+.card{
+    background-color: rgb(6, 9, 40);
+}
+.h-60 {
+    height: 20rem;
+}
