@@ -11,7 +11,7 @@ const firebaseConfig = {
   measurementId: "G-V85K6R307E"
 };
 
-// Initialize Firebase
+// Initializing firebase
 const app = initializeApp(firebaseConfig);
 export const db=getFirestore(app);
 export const booksRef=collection(db, "books");
