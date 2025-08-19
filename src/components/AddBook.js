@@ -6,7 +6,7 @@ import swal from 'sweetalert'
 import { Appstate } from '../App';
 import { useNavigate } from 'react-router-dom';
 
-const AddBook = () => {
+const AddABook = () => {
     const useAppstate= useContext(Appstate);
     const navigate= useNavigate();
     const [form, setForm]=useState(
@@ -113,4 +113,4 @@ const AddBook = () => {
     )
 }
 
-export default AddBook
+export default AddABook
