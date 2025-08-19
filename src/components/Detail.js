@@ -7,7 +7,7 @@ import { Description, Title } from '@mui/icons-material'
 import { Triangle } from 'react-loader-spinner'
 import Reviews from './Reviews'
 
-const Detail = () => {
+const Details = () => {
     const {id }= useParams(); //id destructing
     const [data, setData]= useState({
         Title:"",
@@ -47,4 +47,4 @@ const Detail = () => {
   )
 }
 
-export default Detail
+export default Details
