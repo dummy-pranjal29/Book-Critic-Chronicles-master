@@ -20,8 +20,8 @@ const Login = () => {
     const login = async () => {
         setLoading(true);
         try {
-          const quer = query(usersRef, where('mobile', '==', form.mobile))
-          const querySnapshot = await getDocs(quer);
+          const queryy = query(usersRef, where('mobile', '==', form.mobile))
+          const querySnapshot = await getDocs(queryy);
     
           querySnapshot.forEach((doc) => {
             const _data = doc.data();
